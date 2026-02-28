@@ -3,6 +3,7 @@ BASE_URL = "https://qa-scooter.praktikum-services.ru"
 # courier
 CREATE_COURIER_PATH = "/api/v1/courier"
 LOGIN_COURIER_PATH = "/api/v1/courier/login"
+DELETE_COURIER_PATH = "/api/v1/courier/"
 
 CREATE_COURIER_SUCCESS = {"ok": True}
 NOT_ENOUGH_DATA_CREATE = "Недостаточно данных для создания учетной записи"
